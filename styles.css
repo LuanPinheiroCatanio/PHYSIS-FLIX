@@ -1,0 +1,47 @@
+body {
+    color:rgb(255, 255, 255);
+    background: rgb(12, 8, 19);
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    font-size: 45px;
+    line-height: 0px;
+    border-bottom: solid 3px rgb(233, 183, 55);
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+section{
+    background: rgb(118,110,115);
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.nome-filme{
+    margin-left: 3%;
+}
+.videos{
+    padding: 30px;
+}
+img{
+    height: 280px;
+    
+}
+.recomendacao{
+    display: flex ;
+    overflow-x: auto;
+    gap: 20px;
+   
+}
+.filmes-recomendados{
+    background:  rgb(12, 8, 19);
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
