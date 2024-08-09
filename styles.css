@@ -3,6 +3,7 @@ body {
     background: rgb(12, 8, 19);
     margin: 0px;
     font-family: "Oswald", sans-serif;
+    margin-bottom: 80px;
 }
 
 header{
@@ -14,15 +15,18 @@ header{
     color: rgb(255, 255, 255);
 }
 
+
 section{
     background: rgb(118,110,115);
     padding-bottom: 80px;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+    border-bottom: solid 3px rgb(233, 183, 55);
 }
 .nome-filme{
     margin-left: 3%;
+    color: rgb(64, 32, 21);
 }
 .videos{
     padding: 30px;
@@ -35,13 +39,27 @@ img{
     display: flex ;
     overflow-x: auto;
     gap: 20px;
+    width: 1337.25px;
+    margin-left: -137px;
    
 }
 .filmes-recomendados{
-    background:  rgb(12, 8, 19);
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     
 }
+.filmes-recomendados img{
+    opacity: 0.6;
+}
+.filmes-recomendados img:hover{
+    border: 3px solid green;
+    opacity: 1.0;
 
+
+}
+
+.titulo-recomendação{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
 
